@@ -62,7 +62,7 @@
 /* Cosmopolitan background for the Home Page */
 .home-bg {
   /* This creates a subtle dark overlay so the white text is easy to read over the city lights */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/Background.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/Background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
