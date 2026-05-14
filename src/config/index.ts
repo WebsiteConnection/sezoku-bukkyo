@@ -62,9 +62,9 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "6. Navayana Buddhism",
       summary: "Dr. B.R. Ambedkar’s 'New Vehicle'—a historical precedent reinterpreting the Buddha as a social and ethical reformer.",
-      linkPreview: "https://navayan.com/",
-      linkSource: "https://www.tbsoi.org.in/",
-      image: "/navayana.png",
+      linkPreview: "https://ambedkaree.com/",
+      linkSource: "https://ambedkartimes.com/",
+      image: "/ambedkar.jpg",
     },
     {
       name: "7. Secular Lotus / Sezoku Hokke",
