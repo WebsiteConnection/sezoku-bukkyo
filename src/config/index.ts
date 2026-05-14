@@ -1,98 +1,105 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
-  description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+  title: "The Secular Buddhism Hub",
+  author: "Jan Tate",
+  description: "A central location for teachers and groups advocating for a secular interpretation of Buddhist teachings.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/favicon.png", // This uses your metallic wheel
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
+    { text: "The Hub", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    // You can add your specific social links here or leave blank
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/social-preview.png",
+  canonicalURL: "https://secular-buddhism.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
-    summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+    name: "The Secular Buddhism Hub",
+    specialty: "A Global Portal for the Secular Dharma",
+    summary: "Dedicated to hosting and highlighting organizations, teachers, and resources that interpret Buddhist philosophy through a secular, naturalistic, and immanent lens.",
+    email: "your-email@example.com", // Replace with your preferred contact
   },
-  experience: [
-    {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
-  ],
+  // We are leaving experience empty as this is a Hub, not a CV
+  experience: [], 
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "1. The Secular Buddhist Network",
+      summary: "Exploring the contemporary shift toward a secular Dharma, featuring foundational works by Stephen Batchelor and Winton Higgins.",
+      linkPreview: "https://secularbuddhistnetwork.org/",
+      linkSource: "https://secularbuddhistnetwork.org/the-sbn-community/",
+      image: "/logos/sbn.png", 
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "2. Naturalistic Buddhism",
+      summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in early teachings and the '7 a.m. sits' series.",
+      linkPreview: "https://www.insightmeditationcenter.org/",
+      linkSource: "https://www.audiodharma.org/",
+      image: "/logos/gil.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "3. Doug’s Dharma",
+      summary: "Extensive research and academic video analysis of Buddhist texts from a secular, historical perspective.",
+      linkPreview: "https://www.dougsdharma.com/",
+      linkSource: "https://www.youtube.com/c/dougsdharma",
+      image: "/logos/doug.png",
+    },
+    {
+      name: "4. Noah Rasheta",
+      summary: "Host of the Secular Buddhism Podcast, focusing on Buddhism as a living language adapted to modern secular culture.",
+      linkPreview: "https://eightfoldpath.com",
+      linkSource: "https://secularbuddhism.com/",
+      image: "/logos/noah.png",
+    },
+    {
+      name: "5. Secular Buddhist Tradition (SBT)",
+      summary: "Venerable Tenzin Tarpa's network focused on moving away from religious authority, dogma, and ritual toward ethics and research.",
+      linkPreview: "https://sbtonline.org/",
+      linkSource: "https://sbtonline.org/",
+      image: "/logos/sbt.png",
+    },
+    {
+      name: "6. Navayana Buddhism",
+      summary: "Dr. B.R. Ambedkar’s 'New Vehicle'—a historical precedent reinterpreting the Buddha as a social and ethical reformer.",
+      linkPreview: "https://navayan.com/",
+      linkSource: "https://www.tbsoi.org.in/",
+      image: "/logos/navayana.png",
+    },
+    {
+      name: "7. Secular Lotus / Sezoku Hokke",
+      summary: "Research platforms documenting the transition of the Lotus Sūtra from religious scripture to a philosophy of immanence and virtue ethics.",
+      linkPreview: "https://secular-lotus.vercel.app/",
+      linkSource: "https://sezoku-hokke.vercel.app/",
+      image: "/logos/lotus.png",
+    },
+    {
+      name: "8. Existential & Pragmatic Buddhism",
+      summary: "Seth Zuihō Segall’s naturalized, eudaimonic approach, viewing these teachings as close cousins to the secular shift.",
+      linkPreview: "https://www.existentialbuddhist.com/",
+      linkSource: "https://www.existentialbuddhist.com/",
+      image: "/logos/seth.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      The Secular Buddhism Hub is a curated directory designed to serve as a central location for the diverse voices of the secular Buddhist movement. 
+      
+      From the historical roots of Navayana in India to modern naturalistic and existential interpretations in the West, this hub provides a neutral space for teachers and groups to maintain an online presence. Our goal is to make these resources accessible to anyone interested in a Dharma that is grounded in the human condition, modern reason, and the challenges of daily life.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/favicon.png", // You can replace this with a photo of yourself or keep the metallic wheel
   },
 };
+Key Changes Made:
+Order: I have followed your exact numbering, placing Secular Lotus at #7 and Seth Segall at #8.
 
-// #5755ff
+Navigation: Changed "Experience" and "Projects" to "The Hub" and "About."
+
+Links: I used the linkPreview for the main site and linkSource for the secondary links (like Audio Dharma or YouTube) provided in your document.
+
+Logos: I’ve put placeholder paths like /logos/sbn.png. To make these work, you just need to create a folder named logos inside your public folder and upload the images there with those names.
+
+Does this text look accurate to you, or would you like to tweak the summaries for any of the cards?
