@@ -51,3 +51,21 @@
     }
   }
 }
+/* --- CUSTOM BACKGROUND LOGIC --- */
+
+/* Standard background for all non-home pages */
+.default-bg {
+  background-color: #000000;
+  color: #e2e8f0;
+}
+
+/* Cosmopolitan background for the Home Page */
+.home-bg {
+  /* This creates a subtle dark overlay so the white text is easy to read over the city lights */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000000;
+  color: #e2e8f0;
+}
