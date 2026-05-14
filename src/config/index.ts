@@ -5,14 +5,12 @@ export const SITE_CONFIG: SiteConfig = {
   author: "Jan Tate",
   description: "A central location for teachers and groups advocating for a secular interpretation of Buddhist teachings.",
   lang: "en",
-  siteLogo: "/favicon.png", // This uses your metallic wheel
+  siteLogo: "/favicon.png",
   navLinks: [
     { text: "The Hub", href: "#projects" },
     { text: "About", href: "#about" },
   ],
-  socialLinks: [
-    // You can add your specific social links here or leave blank
-  ],
+  socialLinks: [],
   socialImage: "/social-preview.png",
   canonicalURL: "https://secular-buddhism.vercel.app",
 };
@@ -22,9 +20,8 @@ export const SITE_CONTENT: SiteContent = {
     name: "The Secular Buddhism Hub",
     specialty: "A Global Portal for the Secular Dharma",
     summary: "Dedicated to hosting and highlighting organizations, teachers, and resources that interpret Buddhist philosophy through a secular, naturalistic, and immanent lens.",
-    email: "your-email@example.com", // Replace with your preferred contact
+    email: "",
   },
-  // We are leaving experience empty as this is a Hub, not a CV
   experience: [], 
   projects: [
     {
@@ -32,56 +29,56 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Exploring the contemporary shift toward a secular Dharma, featuring foundational works by Stephen Batchelor and Winton Higgins.",
       linkPreview: "https://secularbuddhistnetwork.org/",
       linkSource: "https://secularbuddhistnetwork.org/the-sbn-community/",
-      image: "/logos/sbn.png", 
+      image: "/sbn.png", 
     },
     {
       name: "2. Naturalistic Buddhism",
       summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in early teachings and the '7 a.m. sits' series.",
       linkPreview: "https://www.insightmeditationcenter.org/",
       linkSource: "https://www.audiodharma.org/",
-      image: "/logos/gil.png",
+      image: "/gil.png",
     },
     {
       name: "3. Doug’s Dharma",
       summary: "Extensive research and academic video analysis of Buddhist texts from a secular, historical perspective.",
       linkPreview: "https://www.dougsdharma.com/",
       linkSource: "https://www.youtube.com/c/dougsdharma",
-      image: "/logos/doug.png",
+      image: "/doug.png",
     },
     {
       name: "4. Noah Rasheta",
       summary: "Host of the Secular Buddhism Podcast, focusing on Buddhism as a living language adapted to modern secular culture.",
       linkPreview: "https://eightfoldpath.com",
       linkSource: "https://secularbuddhism.com/",
-      image: "/logos/noah.png",
+      image: "/noah.png",
     },
     {
       name: "5. Secular Buddhist Tradition (SBT)",
       summary: "Venerable Tenzin Tarpa's network focused on moving away from religious authority, dogma, and ritual toward ethics and research.",
       linkPreview: "https://sbtonline.org/",
       linkSource: "https://sbtonline.org/",
-      image: "/logos/sbt.png",
+      image: "/sbt.png",
     },
     {
       name: "6. Navayana Buddhism",
       summary: "Dr. B.R. Ambedkar’s 'New Vehicle'—a historical precedent reinterpreting the Buddha as a social and ethical reformer.",
       linkPreview: "https://navayan.com/",
       linkSource: "https://www.tbsoi.org.in/",
-      image: "/logos/navayana.png",
+      image: "/navayana.png",
     },
     {
       name: "7. Secular Lotus / Sezoku Hokke",
       summary: "Research platforms documenting the transition of the Lotus Sūtra from religious scripture to a philosophy of immanence and virtue ethics.",
       linkPreview: "https://secular-lotus.vercel.app/",
       linkSource: "https://sezoku-hokke.vercel.app/",
-      image: "/logos/lotus.png",
+      image: "/lotus.png",
     },
     {
       name: "8. Existential & Pragmatic Buddhism",
       summary: "Seth Zuihō Segall’s naturalized, eudaimonic approach, viewing these teachings as close cousins to the secular shift.",
       linkPreview: "https://www.existentialbuddhist.com/",
       linkSource: "https://www.existentialbuddhist.com/",
-      image: "/logos/seth.png",
+      image: "/seth.png",
     },
   ],
   about: {
@@ -90,16 +87,6 @@ export const SITE_CONTENT: SiteContent = {
       
       From the historical roots of Navayana in India to modern naturalistic and existential interpretations in the West, this hub provides a neutral space for teachers and groups to maintain an online presence. Our goal is to make these resources accessible to anyone interested in a Dharma that is grounded in the human condition, modern reason, and the challenges of daily life.
     `,
-    image: "/favicon.png", // You can replace this with a photo of yourself or keep the metallic wheel
+    image: "/favicon.png",
   },
 };
-Key Changes Made:
-Order: I have followed your exact numbering, placing Secular Lotus at #7 and Seth Segall at #8.
-
-Navigation: Changed "Experience" and "Projects" to "The Hub" and "About."
-
-Links: I used the linkPreview for the main site and linkSource for the secondary links (like Audio Dharma or YouTube) provided in your document.
-
-Logos: I’ve put placeholder paths like /logos/sbn.png. To make these work, you just need to create a folder named logos inside your public folder and upload the images there with those names.
-
-Does this text look accurate to you, or would you like to tweak the summaries for any of the cards?
