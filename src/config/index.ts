@@ -18,7 +18,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "The Secular Buddhism Hub",
-    specialty: "A Global Portal for the Secular Dharma",
+    specialty: "A Global Portal for the Secular Buddhist Movement",
     summary: "Dedicated to hosting and highlighting organizations, teachers, and resources that interpret Buddhist philosophy through a secular, naturalistic, and immanent lens.",
     email: "",
   },
