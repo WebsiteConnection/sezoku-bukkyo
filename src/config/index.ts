@@ -36,7 +36,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in early teachings and the '7 a.m. sits' series.",
       linkPreview: "https://www.insightmeditationcenter.org/",
       linkSource: "https://www.audiodharma.org/",
-      image: "/gil.png",
+      image: "/gil.jpg",
     },
     {
       name: "3. Doug’s Dharma",
