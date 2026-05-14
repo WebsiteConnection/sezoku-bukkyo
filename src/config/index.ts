@@ -2,7 +2,7 @@ import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "The Secular Buddhism Hub",
-  author: "Jan Tate",
+  author: "John Tate",
   description: "A central location for teachers and groups advocating for a secular interpretation of Buddhist teachings.",
   lang: "en",
   siteLogo: "/favicon.png",
