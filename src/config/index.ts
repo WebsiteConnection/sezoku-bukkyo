@@ -78,7 +78,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Seth Zuihō Segall’s naturalized, eudaimonic approach, viewing these teachings as close cousins to the secular shift.",
       linkPreview: "https://www.existentialbuddhist.com/",
       linkSource: "https://www.existentialbuddhist.com/",
-      image: "/seth.png",
+      image: "/segall.jpg",
     },
   ],
   about: {
