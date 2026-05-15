@@ -12,8 +12,8 @@ export interface SiteConfig {
 
 export interface SiteContent {
   hero: HeroProps;
-  experience?: any[]; // The '?' makes this optional so it won't error out
-  sites: ProjectsProps[]; // Renamed from projects to sites
+  experience?: any[]; // The '?' makes this optional so it won't crash when empty
+  sites: ProjectsProps[]; // This matches the 'sites' name we chose
   about: AboutProps;
 }
 
