@@ -77,7 +77,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "7. Secular Buddhism in the <i>Lotus Sūtra</i> Tradition",
+      name: "7. Secular Buddhism in the Lotus Sūtra Tradition",
       summary: "Transitions an ancient Mahayana scripture from a text filled with supernatural imagery to a virtue ethic sourced in immanence.",
       image: "/lotus.png",
       links: [
