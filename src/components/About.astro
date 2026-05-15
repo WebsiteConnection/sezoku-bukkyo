@@ -9,10 +9,10 @@ const { description, image, name } = Astro.props;
 ---
 
 <Section text="About" href="about">
-  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
+  <div class="flex flex-col items-center gap-8 md:flex-row">
     
-    <div class="w-full rounded-3xl border border-white/10 bg-[#1a1a1a] p-8 shadow-xl">
-      <p class="text-base leading-relaxed text-neutral-200 text-justify whitespace-pre-line">
+    <div class="w-full rounded-3xl border border-white/10 bg-[#1a1a1a] p-6 shadow-xl md:p-8">
+      <p class="text-base leading-relaxed text-neutral-200 text-justify whitespace-pre-line m-0">
         {description}
       </p>
     </div>
@@ -25,7 +25,6 @@ const { description, image, name } = Astro.props;
         height={260}
         alt={name}
       />
-      
       <p class="mt-4 font-serif text-[11px] italic leading-tight text-neutral-800 text-center px-1">
         A spoke for each of the 24 virtues
       </p>
