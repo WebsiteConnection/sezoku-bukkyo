@@ -77,8 +77,8 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "7. Secular Lotus / Sezoku Hokke",
-      summary: "Research platforms documenting the transition of the Lotus Sūtra from religious scripture to a philosophy of immanence and virtue ethics.",
+      name: "7. Secular Buddhism in the <i>Lotus Sūtra</i> Tradition",
+      summary: "Transitions an ancient Mahayana scripture from a text filled with supernatural imagery to a virtue ethic sourced in immanence.",
       image: "/lotus.png",
       links: [
         { text: "Secular Lotus", href: "https://secular-lotus.vercel.app/" },
