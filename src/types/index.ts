@@ -1,17 +1,19 @@
-export interface SiteConfig extends HeaderProps {
+export interface SiteConfig {
   title: string;
+  author: string;
   description: string;
   lang: string;
-  author: string;
+  siteLogo: string;
+  navLinks: { text: string; href: string }[];
   socialLinks: { text: string; href: string }[];
   socialImage: string;
-  canonicalURL?: string;
+  canonicalURL: string;
 }
 
 export interface SiteContent {
   hero: HeroProps;
-  experience: ExperienceProps[];
-  sites: ProjectProps[];
+  experience?: any[]; // The '?' makes this optional so it won't error out
+  sites: ProjectsProps[]; // Renamed from projects to sites
   about: AboutProps;
 }
 
@@ -22,21 +24,11 @@ export interface HeroProps {
   email: string;
 }
 
-export interface ExperienceProps {
-  company: string;
-  position: string;
-  startDate: string;
-  endDate: string;
-  summary: string | string[];
-}
-
-export interface ProjectProps {
+export interface ProjectsProps {
   name: string;
   summary: string;
   image: string;
   links: { text: string; href: string }[];
-  linkPreview?: string;
-  linkSource?: string;
 }
 
 export interface AboutProps {
