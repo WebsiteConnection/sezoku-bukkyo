@@ -17,16 +17,16 @@ const { sites } = Astro.props;
         <div class="group relative flex flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-6 transition-all hover:bg-white/10">
           <div>
             <div class="mb-4 flex items-center justify-between">
-              <div class="h-12 w-12 overflow-hidden rounded-xl bg-white/10 p-2">
-                <Image
-                  src={image}
-                  alt={name}
-                  width={48}
-                  height={48}
-                  class="h-full w-full object-contain"
-                />
-              </div>
-            </div>
+  <div class="h-16 w-16 overflow-hidden rounded-xl bg-white/5 p-1">
+    <Image
+      src={image}
+      alt={name}
+      width={64}
+      height={64}
+      class="h-full w-full object-contain"
+    />
+  </div>
+</div>
             
             <h3 class="mb-2 font-serif text-xl font-medium text-white">
               {name}
