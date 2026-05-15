@@ -10,19 +10,24 @@ const { description, image, name } = Astro.props;
 
 <Section text="About" href="about">
   <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
-    <p class="w-auto text-base text-neutral md:pr-5">{description}</p>
     
-    <div class="flex h-auto w-64 shrink-0 rotate-[5deg] flex-col items-center bg-white p-4 pb-6 shadow-xl md:rotate-[7deg]">
+    <div class="w-full rounded-3xl border border-white/10 bg-[#1a1a1a] p-8 shadow-xl">
+      <p class="text-base leading-relaxed text-neutral-200 text-justify whitespace-pre-line">
+        {description}
+      </p>
+    </div>
+    
+    <div class="flex h-auto w-64 shrink-0 rotate-[5deg] flex-col items-center bg-white p-4 pb-6 shadow-2xl md:rotate-[7deg]">
       <Image
         class="aspect-square object-cover"
         src={image}
-        width="260"
-        height="260"
+        width={260}
+        height={260}
         alt={name}
       />
       
       <p class="mt-4 font-serif text-[11px] italic leading-tight text-neutral-800 text-center px-1">
-        A spoke for each of the 24 virtues.
+        A spoke for each of the 24 virtues
       </p>
     </div>
   </div>
