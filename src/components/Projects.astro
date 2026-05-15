@@ -1,59 +1,56 @@
 ---
 import Section from "./Section.astro";
 import { Image } from "astro:assets";
-import type { ProjectProps } from "@types";
+import type { ProjectsProps } from "@types";
 
 interface Props {
-  projects: ProjectProps[];
+  sites: ProjectsProps[]; // Renamed from projects
 }
 
-const { projects } = Astro.props;
+const { sites } = Astro.props;
 ---
 
-<Section text="The Hub" href="projects">
-  {
-    projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
-      const top = 98 + index * 40;
-      return (
-        <div
-          style={`top: ${top}px;`}
-          class="sticky mb-12 rounded-2xl border border-neutral/20 bg-black"
-        >
-          <div class="bg-difu relative z-1 grid h-145 w-full grid-rows-2 rounded-2xl bg-[#1c232d]/85 before:absolute before:inset-0 before:z-[-1] before:rounded-2xl before:bg-[url(/raja.png)] before:bg-size-[128px] before:bg-repeat before:opacity-5 before:content-[''] sm:grid-cols-2 sm:grid-rows-1 md:h-96">
-            <div class="px-6 pt-12">
-              <h3 class="mb-5 font-serif text-3xl font-medium text-primary">
-                {name}
-              </h3>
-              <p class="text-base text-neutral">{summary}</p>
-              <div class="flex gap-5 pt-10 text-white">
-                <a
-                  href={linkSource}
-                  target="_blank"
-                  class="after:relative after:-bottom-1.25 after:content-[url(/external.svg)] hover:underline"
-                >
-                  Source
-                </a>
-                <a
-                  href={linkPreview}
-                  target="_blank"
-                  class="after:relative after:-bottom-1.25 after:content-[url(/external.svg)] hover:underline"
-                >
-                  Preview
-                </a>
+<Section text="The Hub" href="sites">
+  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+    {
+      sites.map(({ name, summary, image, links }) => (
+        <div class="group relative flex flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-6 transition-all hover:bg-white/10">
+          <div>
+            <div class="mb-4 flex items-center justify-between">
+              <div class="h-12 w-12 overflow-hidden rounded-xl bg-white/10 p-2">
+                <Image
+                  src={image}
+                  alt={name}
+                  width={48}
+                  height={48}
+                  class="h-full w-full object-contain"
+                />
               </div>
             </div>
-            <div class="flex items-end justify-end overflow-hidden">
-              <Image
-                class="h-full w-[95%] rounded-ss-xl rounded-ee-2xl object-none object-top-left sm:h-[85%] sm:w-full"
-                src={image}
-                alt={name}
-                width="736"
-                height="483"
-              />
-            </div>
+            
+            <h3 class="mb-2 font-serif text-xl font-medium text-white">
+              {name}
+            </h3>
+            <p class="mb-6 text-sm leading-relaxed text-neutral-400">
+              {summary}
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-x-4 gap-y-2 border-t border-white/5 pt-4">
+            {links && links.map((link) => (
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-xs font-medium text-primary transition-colors hover:text-white"
+              >
+                {link.text}
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            ))}
           </div>
         </div>
-      );
-    })
-  }
+      ))
+    }
+  </div>
 </Section>
