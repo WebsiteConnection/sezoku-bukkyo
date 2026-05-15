@@ -7,7 +7,7 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "/favicon.png",
   navLinks: [
-    { text: "The Hub", href: "#projects" },
+    { text: "The Hub", href: "#sites" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [],
