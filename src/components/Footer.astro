@@ -8,15 +8,15 @@ const { author, socialLinks } = Astro.props;
 ---
 
 <div class="flex flex-col gap-2">
-  <p class="text-sm text-neutral-400">
-    &copy; {new Date().getFullYear()} {author}. All rights reserved.
-  </p>
-  <a 
+   <a 
     href="mailto:your-email@example.com" 
     class="text-xs text-neutral-500 hover:text-primary transition-colors w-fit"
   >
     SecularLotus@gmail.com
   </a>
+ <p class="text-sm text-neutral-400">
+    &copy; {new Date().getFullYear()} {author}. All rights reserved.
+  </p>
 </div>
 
     <div class="flex gap-4">
