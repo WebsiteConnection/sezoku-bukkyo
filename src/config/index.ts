@@ -65,6 +65,7 @@ export const SITE_CONTENT: SiteContent = {
       image: "/sbt.png",
       links: [
         { text: "Visit SBT", href: "https://sbtonline.org/" }
+        { text: "About SBT", href: "https://sbtonline.org/explore-secular-buddhism-guide/" }
       ]
     },
     {
