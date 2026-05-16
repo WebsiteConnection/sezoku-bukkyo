@@ -64,7 +64,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Venerable Tenzin Tarpa's network focused on moving away from religious authority, dogma, and ritual toward ethics and research.",
       image: "/sbt.png",
       links: [
-        { text: "Visit SBT", href: "https://sbtonline.org/" }
+        { text: "Visit SBT", href: "https://sbtonline.org/" },
         { text: "About SBT", href: "https://sbtonline.org/explore-secular-buddhism-guide/" }
       ]
     },
