@@ -87,8 +87,9 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "Reading List",
-      image: "",
+      name: "Information Resources",
+      summary: "Links to Resources.",
+      image: "/book.png",
       links: [
         { text: "Existential Buddhist", href: "https://www.existentialbuddhist.com/" }
       ]
