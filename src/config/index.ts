@@ -95,7 +95,7 @@ export const SITE_CONTENT: SiteContent = {
         { text: "The Coming of Secular Buddhism by Winton Higgins", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
         { text: "Gil Fronsdal's article entitled Natural Buddhism", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
         { text: "A video of monastics interviewing Gil Fronsdal", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
-        { text: "Doug Smith's video on Dr. Ambedkar's Secular Buddhism", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
+        { text: "Doug Smith on Dr. Ambedkar's Secular Buddhism", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
         { text: "Noah Rasheta's article: We're All Downstream", href: "https://secularbuddhistnetwork.org/were-all-downstream/"},
         { text: "The SBT Introduction to Secular Buddhism", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view"},
         { text: "A Secular Buddhism Based on the Lotus Sutra", href: "https://zenodo.org/records/20076233"}   
