@@ -78,8 +78,8 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "7. Secular Buddhism in the Lotus Sūtra Tradition",
-      summary: "Transitions an ancient Mahayana scripture from a text filled with supernatural imagery to a virtue ethic sourced in immanence.",
+      name: "7. Secular Buddhism in the Lotus Tradition",
+      summary: "Transitions the Lotus Sūtra's revelation of an Eternal Buddha into a universal ethic sourced in immanence.",
       image: "/lotus.png",
       links: [
         { text: "Secular Lotus", href: "https://secular-lotus.vercel.app/" },
