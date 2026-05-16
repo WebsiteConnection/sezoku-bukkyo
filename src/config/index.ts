@@ -83,7 +83,7 @@ export const SITE_CONTENT: SiteContent = {
       image: "/lotus.png",
       links: [
         { text: "Secular Lotus", href: "https://secular-lotus.vercel.app/" },
-        { text: "Sezoku Hokke", href: "https://sezoku-hokke.vercel.app/" }
+        { text: "日本語", href: "https://sezoku-hokke.vercel.app/" }
       ]
     },
     {
