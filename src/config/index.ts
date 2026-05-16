@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
   sites: [
     {
       name: "1. The Secular Buddhist Network",
-      summary: "Furthering the contemporary shift toward a secular Dharma, as inspired by the works of Stephen Batchelor and Winton Higgins.",
+      summary: "Furthering the contemporary shift toward a secular Dharma, as inspired by the foundational works of Stephen Batchelor and Winton Higgins.",
       image: "/sbn.png", 
       links: [
         { text: "Main Site", href: "https://secularbuddhistnetwork.org/" },
