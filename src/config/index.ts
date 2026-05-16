@@ -79,7 +79,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "7. Secular Buddhism in the Lotus Tradition",
-      summary: "Transitions the Lotus Sūtra's revelation of an Eternal Buddha into a universal ethic sourced in immanence.",
+      summary: "Transitions the Lotus Sūtra's revelation of an Eternal Buddha into a universal ethic sourced in immanence, and introduces a corresponding secular practice.",
       image: "/lotus.png",
       links: [
         { text: "Secular Lotus", href: "https://secular-lotus.vercel.app/" },
@@ -91,15 +91,15 @@ export const SITE_CONTENT: SiteContent = {
       summary: "",
       image: "/book.png",
       links: [
-        { text: "Stephen Batchelor's article: A Secular Buddhism", href: "https://www.globalbuddhism.org/article/view/1189/1024"},
-        { text: "Winton Higgins' article: The Coming of Secular Buddhism", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
-        { text: "Gil Fronsdal's article: Natural Buddhism", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
+        { text: "Stephen Batchelor's: A Secular Buddhism", href: "https://www.globalbuddhism.org/article/view/1189/1024"},
+        { text: "Winton Higgins': The Coming of Secular Buddhism", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
+        { text: "Gil Fronsdal's: Natural Buddhism", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
         { text: "A video of Gil Fronsdal interviewed by monastics", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
         { text: "Doug Smith's video: Dr. B.R. Ambedkar's Secular Buddhism", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
-        { text: "Kirk Mason's article: on Dr. Ambedkar's Secular Buddhism", href: "ttps://secularbuddhistnetwork.org/dr-bhimrao-ramji-ambedkar-a-secular-buddhist-vision-for-liberation/" },
+        { text: "Kirk Mason's: Dr. Ambedkar's Secular Buddhist Vision", href: "ttps://secularbuddhistnetwork.org/dr-bhimrao-ramji-ambedkar-a-secular-buddhist-vision-for-liberation/" },
         { text: "Noah Rasheta's article: We're All Downstream", href: "https://secularbuddhistnetwork.org/were-all-downstream/"},
         { text: "The SBT Introduction to Secular Buddhism", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view"},
-        { text: "John Tate's article: A Secular Buddhism Based on the Lotus Sutra", href: "https://zenodo.org/records/20076233"}   
+        { text: "A Secular Buddhism Based on the Lotus Sutra", href: "https://zenodo.org/records/20076233"}   
       ]
     },
   ],
