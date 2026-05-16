@@ -99,7 +99,7 @@ export const SITE_CONTENT: SiteContent = {
         { text: "Kirk Mason's article on Dr. B.R. Ambedkar's Secular Buddhism", href: "ttps://secularbuddhistnetwork.org/dr-bhimrao-ramji-ambedkar-a-secular-buddhist-vision-for-liberation/" },
         { text: "Noah Rasheta's article: We're All Downstream", href: "https://secularbuddhistnetwork.org/were-all-downstream/"},
         { text: "The Secular Buddhist Tradition Introduction to Secular Buddhism", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view"},
-        { text: "John Tate's article: A Secular Buddhism Based on the Lotus Sutra", href: https://zenodo.org/records/20076233"},   
+        { text: "John Tate's article: A Secular Buddhism Based on the Lotus Sutra", href: https://zenodo.org/records/20076233"}   
       ]
     },
   ],
