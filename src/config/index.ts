@@ -91,7 +91,15 @@ export const SITE_CONTENT: SiteContent = {
       summary: "",
       image: "/book.png",
       links: [
-        { text: "Existential Buddhist", href: "https://www.existentialbuddhist.com/" }
+        { text: "Stephen Batchelor's article: A Secular Buddhism", href: "https://www.globalbuddhism.org/article/view/1189/1024"},
+        { text: "Winton Higgins' article: The Coming of Secular Buddhism", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
+        { text: "Gil Fronsdal's article: Natural Buddhism", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
+        { text: "A video of Gil Fronsdal interviewed by monastics", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
+        { text: "Doug Smith's video on the Secular Buddhism of Dr. B.R. Ambedkar", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
+        { text: "Kirk Mason's article on Dr. B.R. Ambedkar's Secular Buddhism", href: "ttps://secularbuddhistnetwork.org/dr-bhimrao-ramji-ambedkar-a-secular-buddhist-vision-for-liberation/" },
+        { text: "Noah Rasheta's article: We're All Downstream", href: "https://secularbuddhistnetwork.org/were-all-downstream/"},
+        { text: "The Secular Buddhist Tradition Introduction to Secular Buddhism", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view"},
+        { text: "John Tate's article: A Secular Buddhism Based on the Lotus Sutra", href: https://zenodo.org/records/20076233"},   
       ]
     },
   ],
