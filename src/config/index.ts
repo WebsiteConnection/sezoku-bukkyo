@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
   sites: [
     {
       name: "1. The Secular Buddhist Network",
-      summary: "Exploring the contemporary shift toward a secular Dharma, featuring foundational works by Stephen Batchelor and Winton Higgins.",
+      summary: "Furthering the contemporary shift toward a secular Dharma, as inspired by the works of Stephen Batchelor and Winton Higgins.",
       image: "/sbn.png", 
       links: [
         { text: "Main Site", href: "https://secularbuddhistnetwork.org/" },
@@ -61,7 +61,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "5. Secular Buddhist Tradition (SBT)",
-      summary: "Venerable Tenzin Tarpa's network focused on moving away from religious authority, dogma, and ritual toward ethics and research.",
+      summary: "Venerable Tenzin Tarpa's network focused on moving away from religious authority, dogma, and ritual toward ethics and understanding.",
       image: "/sbt.png",
       links: [
         { text: "Visit SBT", href: "https://sbtonline.org/" },
