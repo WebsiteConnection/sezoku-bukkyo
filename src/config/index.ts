@@ -35,7 +35,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "2. Naturalistic Buddhism",
       summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in early teachings and the '7 a.m. sits' series.",
-      image: "/gil.jpg",
+      image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
         { text: "Audio Dharma", href: "https://www.audiodharma.org/" }
