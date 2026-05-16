@@ -87,9 +87,8 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "8. Existential & Pragmatic Buddhism",
-      summary: "Seth Zuihō Segall’s naturalized, eudaimonic approach, viewing these teachings as close cousins to the secular shift.",
-      image: "/segall.jpg",
+      name: "Reading List",
+      image: "",
       links: [
         { text: "Existential Buddhist", href: "https://www.existentialbuddhist.com/" }
       ]
