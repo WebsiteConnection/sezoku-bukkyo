@@ -74,8 +74,8 @@ export const SITE_CONTENT: SiteContent = {
       image: "/ambedkar.jpg",
       links: [
         { text: "Ambedkaree", href: "https://ambedkaree.com/" },
-        { text: "Ambedkar Times", href: "https://ambedkartimes.com/" },
-        { text: "The Buddha and his Dharma", href: "https://franpritchett.com/00ambedkar/ambedkar_buddha/" },
+        { text: "Ambedkar Times", href: "https://ambedkartimes.com/" }
+        { text: "The Buddha's Dharma", href: "https://franpritchett.com/00ambedkar/ambedkar_buddha/" },
       ]
     },
     {
