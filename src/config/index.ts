@@ -19,7 +19,7 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "The Secular Buddhism Hub",
     specialty: "A Global Portal for the Secular Buddhist Movement",
-    summary: "",
+    summary: "Dedicated to hosting and highlighting organizations, teachers, and resources that interpret Buddhism through a secular, naturalistic, and immanent lens.",
     email: "your-email@example.com",
   },
   sites: [
@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "2. Naturalistic Buddhism",
-      summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in the early teachings with links to his '7 a.m. sits' series.",
+      summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in the early teachings with links to his '7 a.m. sits.'",
       image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
