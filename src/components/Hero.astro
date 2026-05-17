@@ -5,7 +5,7 @@ type Props = HeroProps;
 const { name, specialty, summary } = Astro.props;
 ---
 
-<section class="py-24 md:py-32" id="#hero">
+<section class="pt-8 pb-16 md:pt-12 md:pb-20" id="hero">
   <h1
     class="mb-1.5 font-serif text-7xl font-bold tracking-tightest text-white sm:text-8xl md:mb-0 md:text-9xl"
   >
@@ -16,7 +16,16 @@ const { name, specialty, summary } = Astro.props;
   >
     {specialty}
   </p>
-  <p class="mb-16 text-base font-normal text-neutral md:text-lg">
+  <p class="mb-6 text-base font-normal text-neutral-200 md:text-lg max-w-3xl text-shadow-sm">
     {summary}
   </p>
 </section>
+
+<style>
+  /* Invisible drop-shadow that shields text from bright backgrounds */
+  .text-shadow-sm {
+    text-shadow: 
+      0 2px 4px rgba(0, 0, 0, 0.9), 
+      0 4px 12px rgba(0, 0, 0, 0.8);
+  }
+</style>
