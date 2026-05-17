@@ -87,7 +87,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "The Basics",
+      name: "Basic Information Resources",
       summary: "",
       image: "/book.png",
       links: [
