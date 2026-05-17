@@ -34,11 +34,11 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "2. Naturalistic Buddhism",
-      summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in the early teachings with links to his '7 a.m. sits.'",
+      summary: "Gil Fronsdal's exploration of a non-supernatural Dharma rooted in the early teachings with links to his Audio Dharma",
       image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
-        { text: "Audio Dharma", href: "https://www.audiodharma.org/" }
+        { text: "Gil's Audio Dharma", href: "https://www.audiodharma.org/speakers/1" }
       ]
     },
     {
