@@ -3,7 +3,7 @@ import type { SiteConfig, SiteContent } from "../types";
 export const SITE_CONFIG: SiteConfig = {
   title: "The Secular Buddhism Hub",
   author: "John Tate",
-  description: "A central location for teachers and groups advocating for a secular interpretation of Buddhist teachings.",
+  description: "A central location for teachers and groups who support a secular interpretation of Buddhist teachings.",
   lang: "en",
   siteLogo: "/favicon.png",
   navLinks: [
@@ -19,7 +19,7 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "The Secular Buddhism Hub",
     specialty: "A Global Portal for the Secular Buddhist Movement",
-    summary: "Dedicated to hosting and highlighting organizations, teachers, and resources that interpret Buddhism through a secular, naturalistic, and immanent lens.",
+    summary: "",
     email: "your-email@example.com",
   },
   sites: [
