@@ -3,7 +3,7 @@ import type { SiteConfig, SiteContent } from "../types";
 export const SITE_CONFIG: SiteConfig = {
   title: "The Secular Buddhism Hub",
   author: "John Tate",
-  description: "A central location for teachers and groups who support a secular interpretation of Buddhist teachings.",
+  description: "Links to teachers and groups who support secular Buddhist practices.",
   lang: "en",
   siteLogo: "/favicon.png",
   navLinks: [
@@ -43,7 +43,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "3. Doug’s Dharma",
-      summary: "Extensive research and video analysis of Buddhist texts from a secular, historical perspective.",
+      summary: "Extensive research and video analysis of Buddhist texts from a secular, historical, and academic perspective.",
       image: "/doug.png",
       links: [
         { text: "Website", href: "https://www.dougsdharma.com/" },
@@ -52,7 +52,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "4. Noah Rasheta",
-      summary: "Host of the Secular Buddhism Podcast, focusing on Buddhism as a living language adapted to modern secular culture.",
+      summary: "Hosts of the Secular Buddhism Podcast, and curator of a Buddhist library accessible through AI-powered chat.",
       image: "/noah.png",
       links: [
         { text: "8-Fold Path", href: "https://eightfoldpath.com" },
@@ -61,7 +61,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "5. Secular Buddhist Tradition (SBT)",
-      summary: "Venerable Tenzin Tarpa's network focused on moving away from religious authority, dogma, and ritual toward ethics and understanding.",
+      summary: "Venerable Tenzin Tarpa's network of meditation centers focused on moving away from religious authority, dogma, and ritual toward ethics and understanding.",
       image: "/sbt.png",
       links: [
         { text: "Visit SBT", href: "https://sbtonline.org/" },
@@ -70,11 +70,12 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "6. Navayana Buddhism",
-      summary: "Dr. B.R. Ambedkar’s 'New Vehicle'—a historical precedent reinterpreting the Buddha as a social and ethical reformer.",
+      summary: "Dr. B.R. Ambedkar’s 'New Vehicle'—a historical precedent that reinterprets the Buddha's teachings as an ethos compatible with science and well-suited to support a civic culture aligned with egalitarian reform.",
       image: "/ambedkar.jpg",
       links: [
         { text: "Ambedkaree", href: "https://ambedkaree.com/" },
-        { text: "Ambedkar Times", href: "https://ambedkartimes.com/" }
+        { text: "Ambedkar Times", href: "https://ambedkartimes.com/" },
+        { text: "The Buddha and his Dharma", href: "https://franpritchett.com/00ambedkar/ambedkar_buddha/" },
       ]
     },
     {
