@@ -1,6 +1,5 @@
 ---
 interface Props {
-  author: string;
   socialLinks: { text: string; href: string }[];
 }
 
@@ -11,8 +10,7 @@ const { author, socialLinks } = Astro.props;
    <a 
     href="mailto:your-email@example.com" 
     class="text-sm font-normal text-neutral-200 transition-colors duration-200 hover:text-primary text-shadow-sm w-fit" 
-  
-    Curator: {author}<br>SecularLotus@gmail.com
+    John Tate<br>SecularLotus@gmail.com
   </a>
 </div>
 
