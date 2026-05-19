@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
   sites: [
     {
       name: "1. The Secular Buddhist Network",
-      summary: "Furthering the contemporary shift toward a secular Dharma, as inspired by the foundational works of Stephen Batchelor and Winton Higgins.",
+      summary: "Leading the contemporary shift toward a secular Dharma, as inspired by the foundational works of Stephen Batchelor and Winton Higgins.",
       image: "/sbn.png", 
       links: [
         { text: "Main Site", href: "https://secularbuddhistnetwork.org/" },
@@ -104,7 +104,7 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   about: {
-  description: `The Secular Buddhism Hub is a curated directory designed to serve as a central location for the diverse voices of the secular Buddhist movement. From the historical roots of Dr. Ambedkar's teachings in India to modern naturalistic and existential interpretations in the West, this hub provides a neutral space for teachers and groups to introduce an online presence. These resources are assembled to help those interested in supernatural-free Buddhism compare current offerings, side by side. For further information, contact the email address below.`,
+  description: `The Secular Buddhism Hub is a curated directory designed to reflect the diverse teachers and groups participating in the emergent secular Buddhist movement. From the groundbreaking teachings of Dr. Ambedkar in India to the modern naturalistic and existential interpretations in the West, this hub provides a neutral space to evaluate the content of their teachings and practices. By bringing these perspectives together side by side, the platform offers those interested a convenient way to explore available forms of Buddhism free of supernaturalism. To learn more or suggest a listing, contact the email address below.`,
   image: "/about wheel.png",
 },
 };
