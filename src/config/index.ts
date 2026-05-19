@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "2. Naturalistic Buddhism",
-      summary: "Gil Fronsdal's interpretation of a non-supernatural Dharma rooted in a vetted, well-reasoned adaptation of the Buddha's early teachings, with links to his audio presentations and other services at the Insight Meditation Center.",
+      summary: "Gil Fronsdal's interpretation of a non-supernatural Dharma rooted in a vetted, well-reasoned adaptation of the Buddha's early teachings, with links to his presentations and other services at his Center.",
       image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
