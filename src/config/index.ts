@@ -52,7 +52,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "4. Noah Rasheta",
-      summary: "Host of the Secular Buddhism Podcast, and developer of an array of Buddhist information resources accessible through AI-powered chat.",
+      summary: "Host of the Secular Buddhism Podcast, and developer of a repository filled with Buddhist information resources accessible through AI-powered chat.",
       image: "/noah.png",
       links: [
         { text: "8-Fold Path", href: "https://eightfoldpath.com" },
