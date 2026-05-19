@@ -43,7 +43,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "3. Doug’s Dharma",
-      summary: "Extensive research and video analysis of Buddhist texts from a secular, historical, and academic perspective.",
+      summary: "Extensive research and video analysis of Buddhist texts from a secular, historical, and academic perspective. Some of Doug's videos are for beginners, while others explain the traditional teachings, as well.",
       image: "/doug.png",
       links: [
         { text: "Website", href: "https://www.dougsdharma.com/" },
