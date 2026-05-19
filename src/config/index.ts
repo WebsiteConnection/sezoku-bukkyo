@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
   sites: [
     {
       name: "1. The Secular Buddhist Network",
-      summary: "Leading the contemporary shift toward a secular Dharma, as inspired by the foundational works of Stephen Batchelor and Winton Higgins.",
+      summary: "Leading the contemporary shift toward a secular Dharma, as inspired by the foundational works of Stephen Batchelor and Winton Higgins. Their community spans the globe.",
       image: "/sbn.png", 
       links: [
         { text: "Main Site", href: "https://secularbuddhistnetwork.org/" },
@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "2. Naturalistic Buddhism",
-      summary: "Gil Fronsdal's interpretation of a non-supernatural Dharma rooted in a vetted, well-reasoned adaptation of the Buddha's early teachings, with links to his audio presentations.",
+      summary: "Gil Fronsdal's interpretation of a non-supernatural Dharma rooted in a vetted, well-reasoned adaptation of the Buddha's early teachings, with links to his audio presentations and other resources at the Insight Meditation Center.",
       image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
