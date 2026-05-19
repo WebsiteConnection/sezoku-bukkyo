@@ -80,7 +80,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "7. Secular Buddhism in the Lotus Tradition",
-      summary: "Reinterprets the Lotus Sūtra's climactic revelation of an Eternal Buddha as a universal ethic sourced in immanence, and introduces various options for a corresponding secular practice.",
+      summary: "Reinterprets the Lotus Sūtra's climactic revelation of an Eternal Buddha as a universal ethic sourced in immanence, and introduces options for a corresponding secular practice.",
       image: "/lotus.png",
       links: [
         { text: "Secular Lotus", href: "https://secular-lotus.vercel.app/" },
