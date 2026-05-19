@@ -104,7 +104,7 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   about: {
-  description: `The Secular Buddhism Hub is a curated directory designed to serve as a central location for the diverse voices of the secular Buddhist movement. From the historical roots of Dr. Ambedkar's teachings in India to modern naturalistic and existential interpretations in the West, this hub provides a neutral space for teachers and groups to introduce an online presence. The goal is to make these resources accessible to anyone interested in comparing forms of Buddhism grounded in immanence, modern reason, and contemporary life. For further information, contact the email address below.`,
+  description: `The Secular Buddhism Hub is a curated directory designed to serve as a central location for the diverse voices of the secular Buddhist movement. From the historical roots of Dr. Ambedkar's teachings in India to modern naturalistic and existential interpretations in the West, this hub provides a neutral space for teachers and groups to introduce an online presence. The goal is to make these resources accessible to anyone interested in a form of Buddhism grounded in immanence, modern reason, and contemporary life. For further information, contact the email address below.`,
   image: "/about wheel.png",
 },
 };
