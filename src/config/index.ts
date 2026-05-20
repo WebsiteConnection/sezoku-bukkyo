@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "2. Naturalistic Buddhism",
-      summary: "A practice based on a vetted, well-reasoned interpretation of the Buddha's early teachings by Gil Fronsdal, with links to his video presentations and other services at the Center.",
+      summary: "A practice based on a vetted, well-reasoned interpretation of the Buddha's early teachings by Gil Fronsdal, with links to his media presentations and other services at the Center.",
       image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
