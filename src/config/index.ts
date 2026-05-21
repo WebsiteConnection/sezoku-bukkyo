@@ -89,7 +89,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
    {
-      name: "基本参考資料 <span style='font-size: 0.875rem; color: #a3a3a3; font-weight: normal; margin-left: 0.5rem;'>（最初のリンクを除き、以下の参考資料はすべて英語文献となります）</span>",
+      name: "基本参考資料 <span style='font-size: 0.875rem; color: #a3a3a3; font-weight: normal; margin-left: 0.5rem;'>（第1リンクを除く以下はすべて英語文献）</span>",
       summary: "",
       image: "/book.png",
       links: [
