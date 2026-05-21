@@ -34,12 +34,11 @@ const { sites } = Astro.props;
                 </div>
               </div>
               
-              <h3 
+             <h3 
                 class="mb-2 text-xl font-medium text-primary"
                 style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
-              >
-                {name}
-              </h3>
+                set:html={name}
+              />
 
               {hasSummary && (
                 <p 
