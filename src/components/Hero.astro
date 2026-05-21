@@ -7,16 +7,21 @@ const { name, specialty, summary } = Astro.props;
 
 <section class="pt-8 pb-16 md:pt-12 md:pb-20" id="hero">
   <h1
-    class="mb-1.5 font-serif text-7xl font-bold tracking-tightest text-white sm:text-8xl md:mb-0 md:text-9xl"
+    class="mb-3 text-5xl font-bold tracking-tight text-white sm:text-6xl md:mb-2 md:text-7xl"
+    style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
     {name}
   </h1>
   <p
-    class="mb-9 font-serif text-4xl leading-11.5 font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
+    class="mb-9 text-2xl leading-relaxed font-bold tracking-tight text-primary sm:text-3xl md:text-4xl"
+    style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
     {specialty}
   </p>
-  <p class="mb-6 text-base font-normal text-neutral-200 md:text-lg max-w-3xl text-shadow-sm">
+  <p 
+    class="mb-6 text-base font-normal text-neutral-200 md:text-lg max-w-3xl text-shadow-sm"
+    style="word-break: break-all;"
+  >
     {summary}
   </p>
 </section>
