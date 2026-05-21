@@ -91,11 +91,10 @@ export const SITE_CONTENT: SiteContent = {
     
     {
       name: "基本参考資料",
-      summary: "",
+      summary: "（最初のリンクを除き、以下の参考資料はすべて英語文献となります）",
       image: "/book.png",
-      links:[
+      links: [
         { text: "法華経に基づく世俗仏教（論文）", href: "https://drive.google.com/file/d/1EbT7dTw_JnYhhgHWqYkxFkElyvI42bVW/view?usp=drive_link" },
-        { text: "ーーー 以下の資料はすべて英語文献となります ーーー", href: "javascript:void(0)" },
         { text: "スティーブン・バチェラー論文：「世俗仏教」", href: "https://www.globalbuddhism.org/article/view/1189/1024" },
         { text: "ウィントン・ヒギンズ：「世俗仏教の到来」", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
         { text: "ギル・フロンズダール論文：「自然主義的仏教」", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
