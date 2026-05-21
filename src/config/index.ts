@@ -30,7 +30,7 @@ export const SITE_CONTENT: SiteContent = {
       image: "/lotus.png",
       links: [
         { text: "世俗の蓮", href: "https://sezoku-hokke.vercel.app/" },
-        { text: "English", href: "https://secular-lotus.vercel.app/" }
+        { text: "English（英語）", href: "https://secular-lotus.vercel.app/" }
       ]
     },
      {
@@ -38,9 +38,9 @@ export const SITE_CONTENT: SiteContent = {
       summary: "B.R.アンベードカル博士が提唱した「新乗り物（新仏教）」。科学と互換性があり、平等主義的な改革に合致した市民文化を支えるのに適した倫理として、ブッダの教えを再解釈した歴史的先例です。",
       image: "/ambedkar.jpg",
       links: [
-        { text: "Ambedkaree", href: "https://ambedkaree.com/" },
-        { text: "Ambedkar Times", href: "https://ambedkartimes.com/" },
-        { text: "ブッダとそのダルマ", href: "https://franpritchett.com/00ambedkar/ambedkar_buddha/" }
+        { text: "Ambedkaree（英語）", href: "https://ambedkaree.com/" },
+        { text: "Ambedkar Times（英語）", href: "https://ambedkartimes.com/" },
+        { text: "ブッダとそのダルマ（英語）", href: "https://franpritchett.com/00ambedkar/ambedkar_buddha/" }
       ]
     },
     {
@@ -48,8 +48,8 @@ export const SITE_CONTENT: SiteContent = {
       summary: "スティーブン・バチェラーやウィントン・ヒギンズの基礎的な著作に触発され、現代における「世俗的なダルマ（法）」への転換を牽引しています。その活動グループは欧米諸国に広がっています。",
       image: "/sbn.png", 
       links: [
-        { text: "公式サイト", href: "https://secularbuddhistnetwork.org/" },
-        { text: "コミュニティ", href: "https://secularbuddhistnetwork.org/the-sbn-community/" }
+        { text: "公式サイト（英語）", href: "https://secularbuddhistnetwork.org/" },
+        { text: "コミュニティ（英語）", href: "https://secularbuddhistnetwork.org/the-sbn-community/" }
       ]
     },
     {
@@ -57,8 +57,8 @@ export const SITE_CONTENT: SiteContent = {
       summary: "ギル・フロンズダールによる、ブッダの初期教義に対する現代的かつ緻密に論考された解釈に基づく実践。同センターにおける彼のメディアプレゼンテーションやその他のサービスへのリンクを提供しています。",
       image: "/gil.png",
       links: [
-        { text: "インサイト・センター", href: "https://www.insightmeditationcenter.org/" },
-        { text: "ギルによるオーディオ・ダルマ", href: "https://www.audiodharma.org/speakers/1" }
+        { text: "インサイト・センター（英語）", href: "https://www.insightmeditationcenter.org/" },
+        { text: "ギルによるオーディオ・ダルマ（英語）", href: "https://www.audiodharma.org/speakers/1" }
       ]
     },
     {
@@ -66,8 +66,8 @@ export const SITE_CONTENT: SiteContent = {
       summary: "世俗的、歴史的、および学術的な観点から仏教テキストの広範な動画分析を行っています。ダグの動画の一部は世俗仏教に焦点を当てており、また別の動画では伝統的な教えや、それらと哲学思想との結びつきを検証しています。",
       image: "/doug.png",
       links: [
-        { text: "ウェブサイト", href: "https://www.dougsdharma.com/" },
-        { text: "YouTubeチャンネル", href: "https://www.youtube.com/c/dougsdharma" }
+        { text: "ウェブサイト（英語）", href: "https://www.dougsdharma.com/" },
+        { text: "YouTubeチャンネル（英語）", href: "https://www.youtube.com/c/dougsdharma" }
       ]
     },
     {
@@ -75,8 +75,8 @@ export const SITE_CONTENT: SiteContent = {
       summary: "「Secular Buddhism Podcast」のホストであり、AI搭載チャットを通じてアクセスできる仏教情報リソースを豊富に備えたデータベースを開発しています。",
       image: "/noah.png",
       links: [
-        { text: "八正道（8-Fold Path）", href: "https://eightfoldpath.com" },
-        { text: "ポッドキャスト", href: "https://secularbuddhism.com/" }
+        { text: "八正道（英語）", href: "https://eightfoldpath.com" },
+        { text: "ポッドキャスト（英語）", href: "https://secularbuddhism.com/" }
       ]
     },
     {
@@ -84,8 +84,8 @@ export const SITE_CONTENT: SiteContent = {
       summary: "テンジン・パルパ尊師による瞑想センターのネットワーク。宗教的な権威、教条（ドグマ）、儀礼から離れ、倫理と相互理解へと向かうことに焦点を当てています。",
       image: "/sbt.png",
       links: [
-        { text: "SBTを訪問", href: "https://sbtonline.org/" },
-        { text: "SBTについて", href: "https://sbtonline.org/explore-secular-buddhism-guide/" }
+        { text: "SBTを訪問（英語）", href: "https://sbtonline.org/" },
+        { text: "SBTについて（英語）", href: "https://sbtonline.org/explore-secular-buddhism-guide/" }
       ]
     },
     
@@ -94,14 +94,14 @@ export const SITE_CONTENT: SiteContent = {
       summary: "",
       image: "/book.png",
       links: [
-        { text: "スティーブン・バチェラー論文：「世俗仏教」", href: "https://www.globalbuddhism.org/article/view/1189/1024"},
-        { text: "ウィントン・ヒギンズ：「世俗仏教の到来」", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
-        { text: "ギル・フロンズダール論文：「自然主義的仏教」", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
-        { text: "聖職者によるギル・フロンズダールへのインタビュー動画", href: "https://www.youtube.com/watch?v=CvFMx_HZ_nc" },
-        { text: "ダグ・スミスによる解説：アンベードカル博士の世俗仏教について", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
-        { text: "ノア・ラシェータ記事：「私たちはみな下流にいる」", href: "https://secularbuddhistnetwork.org/were-all-downstream/"},
-        { text: "SBTによる世俗仏教入門ガイド", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view"},
-        { text: "法華経に基づく世俗仏教（論文）", href: "https://zenodo.org/records/20076233"}   
+        { text: "法華経に基づく世俗仏教（論文）", href: "https://drive.google.com/file/d/1EbT7dTw_JnYhhgHWqYkxFkElyvI42bVW/view?usp=drive_link" },
+        { text: "スティーブン・バチェラー論文：「世俗仏教」（英語）", href: "https://www.globalbuddhism.org/article/view/1189/1024" },
+        { text: "ウィントン・ヒギンズ：「世俗仏教の到来」（英語）", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
+        { text: "ギル・フロンズダール論文：「自然主義的仏教」（英語）", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
+        { text: "聖職者によるギル・フロンズダールへのインタビュー動画（英語）", href: "https://www.youtube.com/watch?v=CvFMx_HZ_nc" },
+        { text: "ダグ・スミスによる解説：アンベードカル博士の世俗仏教（英語）", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
+        { text: "ノア・ラシェータ記事：「私たちはみな下流にいる」（英語）", href: "https://secularbuddhistnetwork.org/were-all-downstream/" },
+        { text: "SBTによる世俗仏教入門ガイド（英語）", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view" }
       ]
     },
   ],
