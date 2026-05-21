@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "2. Naturalistic Buddhism",
-      summary: "A practice based on a vetted, well-reasoned interpretation of the Buddha's early teachings by Gil Fronsdal, with links to his media presentations and other services at the Center.",
+      summary: "A practice based on a contemporary, carefully-reasoned interpretation of the Buddha's early teachings by Gil Fronsdal, with links to his media presentations and other services at the Center.",
       image: "/gil.png",
       links: [
         { text: "Insight Center", href: "https://www.insightmeditationcenter.org/" },
@@ -43,7 +43,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "3. Doug’s Dharma",
-      summary: "Extensive research and video analysis of Buddhist texts from a secular, historical, and academic perspective. Some of Doug's videos are for those new to Secular Buddhism, while others examine the traditional teachings.",
+      summary: "Extensive video analysis of Buddhist texts from a secular, historical, and academic perspective. Some of Doug's videos are focused on Secular Buddhism, while others examine the traditional teachings, as well as their connection with philosophical thought.",
       image: "/doug.png",
       links: [
         { text: "Website", href: "https://www.dougsdharma.com/" },
