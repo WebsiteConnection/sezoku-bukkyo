@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
   },
   sites: [
      {
-      name: "1. 法華伝統における世俗仏教",
+      name: "法華伝統における世俗仏教",
       summary: "法華経のクライマックスである「久遠実成の仏（永遠のブッダ）」の開顕を、内在に根ざした普遍的倫理として再解釈し、それに対応する世俗的実践のための祈りを紹介しています。",
       image: "/lotus.png",
       links: [
@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
      {
-      name: "2. ナヴァヤーナ仏教 (Navayana Buddhism）",
+      name: "ナヴァヤーナ仏教 (Navayana Buddhism）",
       summary: "B.R.アンベードカル博士が提唱した「新乗り物（新仏教）」。科学と互換性があり、平等主義的な改革に合致した市民文化を支えるのに適した倫理として、ブッダの教えを再解釈した歴史的先例です。",
       image: "/ambedkar.jpg",
       links: [
@@ -44,7 +44,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "3. 世俗仏教ネットワーク (The Secular Buddhist Network）",
+      name: "世俗仏教ネットワーク (The Secular Buddhist Network）",
       summary: "スティーブン・バチェラーやウィントン・ヒギンズの基礎的な著作に触発され、現代における「世俗的なダルマ（法）」への転換を牽引しています。その活動グループは欧米諸国に広がっています。",
       image: "/sbn.png", 
       links: [
@@ -53,7 +53,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "4. 自然主義的仏教 (Naturalistic Buddhism）",
+      name: "自然主義的仏教 (Naturalistic Buddhism）",
       summary: "ギル・フロンズダールによる、ブッダの初期教義に対する現代的かつ緻密に論考された解釈に基づく実践。同センターにおける彼のメディアプレゼンテーションやその他のサービスへのリンクを提供しています。",
       image: "/gil.png",
       links: [
@@ -62,7 +62,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "5. ダグズ・ダルマ (Doug’s Dharma）",
+      name: "ダグズ・ダルマ (Doug’s Dharma）",
       summary: "世俗的、歴史的、および学術的な観点から仏教テキストの広範な動画分析を行っています。ダグの動画の一部は世俗仏教に焦点を当てており、また別の動画では伝統的な教えや、それらと哲学思想との結びつきを検証しています。",
       image: "/doug.png",
       links: [
@@ -71,7 +71,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "6. ノア・ラシェータ (Noah Rasheta）",
+      name: "ノア・ラシェータ (Noah Rasheta）",
       summary: "「Secular Buddhism Podcast」のホストであり、AI搭載チャットを通じてアクセスできる仏教情報リソースを豊富に備えたデータベースを開発しています。",
       image: "/noah.png",
       links: [
@@ -80,7 +80,7 @@ export const SITE_CONTENT: SiteContent = {
       ]
     },
     {
-      name: "7. 世俗仏教伝統 (Secular Buddhist Tradition / SBT）",
+      name: "世俗仏教伝統 (Secular Buddhist Tradition / SBT）",
       summary: "テンジン・パルパ尊師による瞑想センターのネットワーク。宗教的な権威、教条（ドグマ）、儀礼から離れ、倫理と相互理解へと向かうことに焦点を当てています。",
       image: "/sbt.png",
       links: [
