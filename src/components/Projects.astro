@@ -34,12 +34,18 @@ const { sites } = Astro.props;
                 </div>
               </div>
               
-              <h3 class="mb-2 font-serif text-xl font-medium text-white group-hover:text-primary transition-colors">
+              <h3 
+                class="mb-2 text-xl font-medium text-white group-hover:text-primary transition-colors"
+                style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
+              >
                 {name}
               </h3>
 
               {hasSummary && (
-                <p class="mb-6 text-sm leading-relaxed text-neutral-300 text-justify">
+                <p 
+                  class="mb-6 text-sm leading-relaxed text-neutral-300 text-justify"
+                  style="word-break: break-all;"
+                >
                   {summary}
                 </p>
               )}
