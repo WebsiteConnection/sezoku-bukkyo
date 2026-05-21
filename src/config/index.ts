@@ -88,10 +88,9 @@ export const SITE_CONTENT: SiteContent = {
         { text: "SBTについて（英語）", href: "https://sbtonline.org/explore-secular-buddhism-guide/" }
       ]
     },
-    
-    {
-      name: "基本参考資料",
-      summary: "（最初のリンクを除き、以下の参考資料はすべて英語文献となります）",
+   {
+      name: "基本参考資料 <span style='font-size: 0.875rem; color: #a3a3a3; font-weight: normal; margin-left: 0.5rem;'>（最初のリンクを除き、以下の参考資料はすべて英語文献となります）</span>",
+      summary: "",
       image: "/book.png",
       links: [
         { text: "法華経に基づく世俗仏教（論文）", href: "https://drive.google.com/file/d/1EbT7dTw_JnYhhgHWqYkxFkElyvI42bVW/view?usp=drive_link" },
