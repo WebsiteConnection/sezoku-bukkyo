@@ -32,9 +32,9 @@ const { siteLogo, navLinks } = Astro.props;
   </button>
 
   <nav
-  class="absolute top-20 right-5 hidden rounded-xl border border-black bg-[#000000] px-4 py-5 text-neutral sm:static sm:block sm:border-0 sm:bg-transparent sm:p-0"
-  id="main-menu"
->
+    class="absolute top-20 right-5 hidden rounded-xl border border-black bg-[#000000] px-4 py-5 text-neutral sm:static sm:block sm:border-0 sm:bg-transparent sm:p-0"
+    id="main-menu"
+  >
     <ul class="gap-2 sm:flex">
       {
         navLinks.map((link) => (
@@ -42,6 +42,7 @@ const { siteLogo, navLinks } = Astro.props;
             <a
               class={`nav-item relative block p-2 text-sm font-medium transition-all duration-500 after:absolute after:bottom-0 after:left-2/4 after:h-2 after:w-1 after:-translate-x-2/4 after:text-primary after:opacity-0 after:content-['•'] hover:text-white`}
               href={link.href}
+              style="font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Kaku Gothic ProN', 'BlinkMacSystemFont', 'Segoe UI', 'Meiryo', sans-serif;"
             >
               {link.text}
             </a>
@@ -58,7 +59,14 @@ const { siteLogo, navLinks } = Astro.props;
   const menu = document.querySelector("#main-menu");
   const navItems = document.querySelectorAll("#main-menu > ul > li > a");
 
-  const toggleMenu = () => {
+  const toggleMenu = (e: Event) => {
+    const target = e.currentTarget as HTMLAnchorElement | null;
+    
+    // Safety check: If it's an external link (like the language switch), skip menu closing
+    if (target && target.getAttribute("href")?.startsWith("http")) {
+      return;
+    }
+
     menu?.classList.toggle("hidden");
     const isHidden = menu?.classList.contains("hidden");
     button?.setAttribute("aria-expanded", `${!isHidden}`);
