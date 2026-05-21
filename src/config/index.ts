@@ -30,7 +30,7 @@ export const SITE_CONTENT: SiteContent = {
       image: "/lotus.png",
       links: [
         { text: "世俗の蓮", href: "https://sezoku-hokke.vercel.app/" },
-        { text: "英語（English）", href: "https://secular-lotus.vercel.app/" }
+        { text: "英語", href: "https://secular-lotus.vercel.app/" }
       ]
     },
      {
