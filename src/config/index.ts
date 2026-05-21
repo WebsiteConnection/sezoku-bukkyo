@@ -29,8 +29,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "法華経のクライマックスである「久遠実成の仏（永遠のブッダ）」の開顕を、内在に根ざした普遍的倫理として再解釈し、それに対応する世俗的実践のための祈りを紹介しています。",
       image: "/lotus.png",
       links: [
-        { text: "世俗の蓮", href: "https://sezoku-hokke.vercel.app/" },
-        { text: "英語", href: "https://secular-lotus.vercel.app/" }
+        { text: "世俗法華経ウェブサイト", href: "https://sezoku-hokke.vercel.app/" }
       ]
     },
      {
