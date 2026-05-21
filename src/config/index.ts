@@ -93,15 +93,16 @@ export const SITE_CONTENT: SiteContent = {
       name: "基本参考資料",
       summary: "",
       image: "/book.png",
-      links: [
+      links:[
         { text: "法華経に基づく世俗仏教（論文）", href: "https://drive.google.com/file/d/1EbT7dTw_JnYhhgHWqYkxFkElyvI42bVW/view?usp=drive_link" },
-        { text: "スティーブン・バチェラー論文：「世俗仏教」（英語）", href: "https://www.globalbuddhism.org/article/view/1189/1024" },
-        { text: "ウィントン・ヒギンズ：「世俗仏教の到来」（英語）", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
-        { text: "ギル・フロンズダール論文：「自然主義的仏教」（英語）", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
-        { text: "聖職者によるギル・フロンズダールへのインタビュー動画（英語）", href: "https://www.youtube.com/watch?v=CvFMx_HZ_nc" },
-        { text: "ダグ・スミスによる解説：アンベードカル博士の世俗仏教（英語）", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
-        { text: "ノア・ラシェータ記事：「私たちはみな下流にいる」（英語）", href: "https://secularbuddhistnetwork.org/were-all-downstream/" },
-        { text: "SBTによる世俗仏教入門ガイド（英語）", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view" }
+        { text: "ーーー 以下の資料はすべて英語文献となります ーーー", href: "javascript:void(0)" },
+        { text: "スティーブン・バチェラー論文：「世俗仏教」", href: "https://www.globalbuddhism.org/article/view/1189/1024" },
+        { text: "ウィントン・ヒギンズ：「世俗仏教の到来」", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
+        { text: "ギル・フロンズダール論文：「自然主義的仏教」", href: "https://www.insightmeditationcenter.org/books-articles/natural-buddhism/" },
+        { text: "聖職者によるギル・フロンズダールへのインタビュー動画", href: "https://www.youtube.com/watch?v=CvFMx_HZ_nc" },
+        { text: "ダグ・スミスによる解説：アンベードカル博士の世俗仏教", href: "https://www.youtube.com/watch?v=qlH_qieCgCA" },
+        { text: "ノア・ラシェータ記事：「私たちはみな下流にいる」", href: "https://secularbuddhistnetwork.org/were-all-downstream/" },
+        { text: "SBTによる世俗仏教入門ガイド", href: "https://drive.google.com/file/d/1Dkaz8yHsuKKIjDwhTRFRn8CgEXCYaUMW/view" }
       ]
     },
   ],
