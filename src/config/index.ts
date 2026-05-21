@@ -8,7 +8,7 @@ export const SITE_CONFIG: SiteConfig = {
   siteLogo: "/favicon.png",
   navLinks: [
     { text: "ハブ", href: "#sites" },
-    { text: "当サイトについて", href: "#about" },
+    { text: "概要", href: "#about" },
     { text: "English", href: "https://secular-buddhism.vercel.app" },
   ],
   socialLinks: [],
