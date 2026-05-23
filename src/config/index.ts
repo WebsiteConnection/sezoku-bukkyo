@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "世俗仏教ハブ (The Secular Buddhism Hub)",
+  title: "世俗仏教ハブ",
   author: "John Tate",
   description: "世俗的な仏教の実践を支援する指導者やグループへのリンク集。",
   lang: "ja",
