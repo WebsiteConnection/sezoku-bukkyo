@@ -22,10 +22,10 @@ const { name, specialty, summary } = Astro.props;
     世俗仏教運動のための<br />グローバル・ポータル
   </p>
 
-  <!-- Summary: Max-width constraint expanded or removed to allow broader horizontal line flow -->
+<!-- Summary: Reset to normal Japanese text wrapping mechanics -->
   <p 
-    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-4xl lg:max-w-5xl text-shadow-sm"
-    style="word-break: keep-all; overflow-wrap: break-word; lg:leading-relaxed;"
+    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-none text-shadow-sm leading-relaxed"
+    style="word-break: normal;"
   >
     {summary}
   </p>
