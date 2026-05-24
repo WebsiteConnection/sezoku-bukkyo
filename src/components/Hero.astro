@@ -22,9 +22,9 @@ const { name, specialty, summary } = Astro.props;
     世俗仏教運動のための<br />グローバル・ポータル
   </p>
 
-  <!-- Summary: Clean, whole-phrase natural wrapping -->
+  <!-- Summary: Clean, whole-phrase natural wrapping without hardcoded layout limits -->
   <p 
-    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-3xl text-shadow-sm"
+    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-2xl md:max-w-3xl text-shadow-sm"
     style="word-break: keep-all; overflow-wrap: break-word;"
   >
     {summary}
