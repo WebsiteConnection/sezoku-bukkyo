@@ -6,31 +6,29 @@ const { name, specialty, summary } = Astro.props;
 ---
 
 <section class="pt-8 pb-16 md:pt-12 md:pb-20" id="hero">
-  <!-- Name: Maxed out font sizes by one more full step across all breakpoints -->
+  <!-- Name: Pushed up one size step. Enforced whitespace-nowrap so characters never break apart -->
   <h1
-    class="mb-3 text-8xl font-bold tracking-tight text-white sm:text-9xl md:mb-2 md:text-[7rem] lg:text-[8rem]"
+    class="mb-3 text-7xl font-bold tracking-tight text-white sm:text-8xl md:mb-2 md:text-9xl break-keep whitespace-nowrap"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
     {name}
   </h1>
 
-  <!-- Tagline: Tightened line spacing (leading-tight) and set custom max-widths to force natural breaks close together -->
+  <!-- Tagline: Uses leading-none to bring lines tightly together, with an explicit manual break point -->
   <p
-    class="mb-9 text-3xl font-bold tracking-tight text-primary sm:text-4xl md:text-5xl max-w-[12em] md:max-w-none leading-tight md:leading-normal"
+    class="mb-9 text-3xl font-bold tracking-tight text-primary sm:text-3xl md:text-4xl leading-none md:leading-tight"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
-    世俗仏教運動のためのグローバル・ポータル
+    世俗仏教運動のための<br class="md:hidden" />グローバル・ポータル
   </p>
 
-  <!-- Summary: Increased font size, removed ellipsis, forced the entire phrase to flow together locked as a solid unit -->
-  <div class="w-full overflow-x-auto no-scrollbar">
-    <p 
-      class="mb-6 text-xl font-normal text-neutral-200 md:text-2xl text-shadow-sm inline-block whitespace-nowrap"
-      style="word-break: keep-all;"
-    >
-      {summary}
-    </p>
-  </div>
+  <!-- Summary: Boosted text size. Keep-all forces entire words/phrases to flow naturally together without clipping -->
+  <p 
+    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-3xl text-shadow-sm"
+    style="word-break: keep-all; overflow-wrap: break-word;"
+  >
+    {summary}
+  </p>
 </section>
 
 <style>
@@ -39,14 +37,5 @@ const { name, specialty, summary } = Astro.props;
     text-shadow: 
       0 2px 4px rgba(0, 0, 0, 0.9), 
       0 4px 12px rgba(0, 0, 0, 0.8);
-  }
-
-  /* Utility to hide horizontal scrollbar rails if text skims container margins on tiny phones */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
   }
 </style>
