@@ -6,26 +6,31 @@ const { name, specialty, summary } = Astro.props;
 ---
 
 <section class="pt-8 pb-16 md:pt-12 md:pb-20" id="hero">
-  <!-- Increased Name Font Sizes: text-7xl (mobile) -> text-8xl (tablet) -> text-9xl (desktop) -->
+  <!-- Name: Maxed out font sizes by one more full step across all breakpoints -->
   <h1
-    class="mb-3 text-7xl font-bold tracking-tight text-white sm:text-9xl md:mb-2 md:text-10xl"
+    class="mb-3 text-8xl font-bold tracking-tight text-white sm:text-9xl md:mb-2 md:text-[7rem] lg:text-[8rem]"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
     {name}
   </h1>
+
+  <!-- Tagline: Tightened line spacing (leading-tight) and set custom max-widths to force natural breaks close together -->
   <p
-    class="mb-9 text-3xl leading-relaxed font-bold tracking-tight text-primary sm:text-5xl md:text-6xl"
+    class="mb-9 text-3xl font-bold tracking-tight text-primary sm:text-4xl md:text-5xl max-w-[12em] md:max-w-none leading-tight md:leading-normal"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
-    世俗仏教運動のための<br class="md:hidden" />グローバル・ポータル
+    世俗仏教運動のためのグローバル・ポータル
   </p>
-  <!-- Increased Summary Font Sizes: text-lg (mobile) -> text-xl (desktop) + Locked to single line -->
-  <p 
-    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-3xl text-shadow-sm whitespace-nowrap overflow-hidden text-ellipsis"
-    style="word-break: break-all;"
-  >
-    {summary}
-  </p>
+
+  <!-- Summary: Increased font size, removed ellipsis, forced the entire phrase to flow together locked as a solid unit -->
+  <div class="w-full overflow-x-auto no-scrollbar">
+    <p 
+      class="mb-6 text-xl font-normal text-neutral-200 md:text-2xl text-shadow-sm inline-block whitespace-nowrap"
+      style="word-break: keep-all;"
+    >
+      {summary}
+    </p>
+  </div>
 </section>
 
 <style>
@@ -34,5 +39,14 @@ const { name, specialty, summary } = Astro.props;
     text-shadow: 
       0 2px 4px rgba(0, 0, 0, 0.9), 
       0 4px 12px rgba(0, 0, 0, 0.8);
+  }
+
+  /* Utility to hide horizontal scrollbar rails if text skims container margins on tiny phones */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 </style>
