@@ -6,8 +6,9 @@ const { name, specialty, summary } = Astro.props;
 ---
 
 <section class="pt-8 pb-16 md:pt-12 md:pb-20" id="hero">
+  <!-- Increased Name Font Sizes: text-7xl (mobile) -> text-8xl (tablet) -> text-9xl (desktop) -->
   <h1
-    class="mb-3 text-6xl font-bold tracking-tight text-white sm:text-7xl md:mb-2 md:text-8xl"
+    class="mb-3 text-7xl font-bold tracking-tight text-white sm:text-8xl md:mb-2 md:text-9xl"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
     {name}
@@ -18,8 +19,9 @@ const { name, specialty, summary } = Astro.props;
   >
     世俗仏教運動のための<br class="md:hidden" />グローバル・ポータル
   </p>
+  <!-- Increased Summary Font Sizes: text-lg (mobile) -> text-xl (desktop) + Locked to single line -->
   <p 
-    class="mb-6 text-base font-normal text-neutral-200 md:text-lg max-w-3xl text-shadow-sm"
+    class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-3xl text-shadow-sm whitespace-nowrap overflow-hidden text-ellipsis"
     style="word-break: break-all;"
   >
     {summary}
