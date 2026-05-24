@@ -14,12 +14,12 @@ const { name, specialty, summary } = Astro.props;
     {name}
   </h1>
 
-  <!-- Tagline: Expanded font scale to match the giant title, with tight line spacing to keep split segments close -->
+  <!-- Tagline: Forced structural break point ensures it always cuts cleanly right after 'のための' -->
   <p
     class="mb-9 text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl leading-none md:leading-[1.1]"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
-    世俗仏教運動のための<br class="md:hidden" />グローバル・ポータル
+    世俗仏教運動のための<br />グローバル・ポータル
   </p>
 
   <!-- Summary: Clean, whole-phrase natural wrapping -->
