@@ -14,10 +14,10 @@ const { name, specialty, summary } = Astro.props;
     {name}
   </h1>
 
-  <!-- Tagline: Forced structural break point ensures it always cuts cleanly right after 'のための' -->
+  <!-- Tagline: Carefully scaled mobile font sizes to prevent automatic character dropping -->
   <p
-    class="mb-9 text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl leading-none md:leading-[1.1]"
-    style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
+    class="mb-9 text-2xl sm:text-4xl md:text-6xl font-bold tracking-tight text-primary leading-tight sm:leading-none md:leading-[1.1]"
+    style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif; break-inside: avoid;"
   >
     世俗仏教運動のための<br />グローバル・ポータル
   </p>
