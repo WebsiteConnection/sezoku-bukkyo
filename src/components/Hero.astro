@@ -6,7 +6,7 @@ const { name, specialty, summary } = Astro.props;
 ---
 
 <section class="pt-8 pb-16 md:pt-12 md:pb-20" id="hero">
-  <!-- Name: Pushed up one size step. Enforced whitespace-nowrap so characters never break apart -->
+  <!-- Name: Large commanding presence, protected from breaking apart -->
   <h1
     class="mb-3 text-7xl font-bold tracking-tight text-white sm:text-8xl md:mb-2 md:text-9xl break-keep whitespace-nowrap"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
@@ -14,15 +14,15 @@ const { name, specialty, summary } = Astro.props;
     {name}
   </h1>
 
-  <!-- Tagline: Uses leading-none to bring lines tightly together, with an explicit manual break point -->
+  <!-- Tagline: Expanded font scale to match the giant title, with tight line spacing to keep split segments close -->
   <p
-    class="mb-9 text-3xl font-bold tracking-tight text-primary sm:text-3xl md:text-4xl leading-none md:leading-tight"
+    class="mb-9 text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl leading-none md:leading-[1.1]"
     style="font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'MS PMincho', serif;"
   >
     世俗仏教運動のための<br class="md:hidden" />グローバル・ポータル
   </p>
 
-  <!-- Summary: Boosted text size. Keep-all forces entire words/phrases to flow naturally together without clipping -->
+  <!-- Summary: Clean, whole-phrase natural wrapping -->
   <p 
     class="mb-6 text-lg font-normal text-neutral-200 md:text-xl max-w-3xl text-shadow-sm"
     style="word-break: keep-all; overflow-wrap: break-word;"
