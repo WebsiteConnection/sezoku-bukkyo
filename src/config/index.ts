@@ -92,6 +92,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "",
       image: "/book.png",
       links: [
+        { text: "世俗仏教のウィキペディア記事", href: "https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:River-kind/%E4%B8%96%E4%BF%97%E4%BB%8F%E6%95%99" },
         { text: "法華経に基づく世俗仏教（論文）", href: "https://drive.google.com/file/d/1EbT7dTw_JnYhhgHWqYkxFkElyvI42bVW/view?usp=drive_link" },
         { text: "スティーブン・バチェラー論文：「世俗仏教」", href: "https://www.globalbuddhism.org/article/view/1189/1024" },
         { text: "ウィントン・ヒギンズ：「世俗仏教の到来」", href: "https://www.globalbuddhism.org/article/view/1188/1023" },
